@@ -1,0 +1,15 @@
+
+	IndexIgnore *
+
+	Options +FollowSymlinks
+
+	RewriteEngine	on
+	RewriteBase		/
+
+	RewriteCond	%{HTTP_HOST}	^www$						[NC]
+	RewriteRule	^(.*)$			http://example.com/$1		[R=301,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	RewriteRule ^(.*)$ index.php?_uri=$1 [QSA,L]
