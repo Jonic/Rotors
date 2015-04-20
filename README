@@ -1,1 +1,11 @@
-In the absence of a proper README or any documentation - both of which are exceedlingly unlikely to ever materialise - just have a look through the code. If you know PHP you'll figure it out in no time. Nothing ground breaking or even well-written happening here, it's literally for tiny, mostly static sites. If you can work out how to use it through the code then there's a very good chance you can write something better yourself, so bear that in mind, yeah?
+# Rotors
+
+## DON'T USE THIS. IT'S SHIT.
+
+This is some olllllld cack. I would love to go and slap 2011 Jonic and tell him in great detail all the many ways in which he's gotten this wrong, but I can't.
+
+I _can_ however warn you not to make my mistakes. Don't use this. Use [Lumen](http://lumen.laravel.com) if you're looking for a tiny PHP framework.
+
+## Here's the old README, although it doesn't tell you anything useful:
+
+A dead In the absence of a proper README or any documentation - both of which are exceedlingly unlikely to ever materialise - just have a look through the code. If you know PHP you'll figure it out in no time. Nothing ground breaking or even well-written happening here, it's literally for tiny, mostly static sites. If you can work out how to use it through the code then there's a very good chance you can write something better yourself, so bear that in mind, yeah?
